@@ -1,0 +1,34 @@
+html {
+  font-family: sans-serif;
+  color:#333;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 50%;
+  background:#fff;
+  border:1px solid #eaeaea;
+  border-radius:5px;
+}
+.card h4 {
+  font-size:1.25em;
+}
+.card ul {
+  margin:0 0 0 -40px;
+}
+.card ul li {
+  line-height:1.56em;
+  padding:1em .75em;
+}
+.card img {
+  height:auto;
+  object-fit: cover;
+  max-height:400px;
+  width:100%;
+}
+.content-container {
+  padding:1.5em;
+}
